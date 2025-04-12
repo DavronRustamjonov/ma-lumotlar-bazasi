@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Malumotlarni kiriting 📝</h1>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Yangi vazifa qo'shing..." required>
+            <button type="submit">Qo'shish</button>
+        </form>
+        <ul id="taskList"></ul>
+        <button onclick="exportData()" class="export-btn">Yuklab Olish</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
